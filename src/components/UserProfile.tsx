@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
 import { Button } from './ui/button'
 import { useAuth } from './AuthContext'
-import type { Page } from '../App'
+import type { Page } from '../../App'
 
 type UserProfileProps = {
   onNavigate: (page: Page) => void
